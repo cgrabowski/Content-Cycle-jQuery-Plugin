@@ -16,6 +16,7 @@ Adding cycling content to your html:
 
 Formatting your html as cycling content is very easy. It looks like this:
 
+---HTML code--------------------------------------------------------------------
 <div id'cycling-container'>
     <div>
     ... some content
@@ -27,6 +28,7 @@ Formatting your html as cycling content is very easy. It looks like this:
     ... some content
     </div>
 </div>
+---end HTML code--------------------------------------------------------------------
 
 As you will see below, the id of the container div can be anything. The content
 that cycles can be anything -- images, paragraphs, whatever. Each 'slide' just
@@ -37,6 +39,7 @@ You can also add a bullet-style navigation bar to manually flip through the
 'slides'. Just put and empty div with the class 'content-cycle-bar' where
 you want the bar to appear. For example:
 
+---HTML code--------------------------------------------------------------------
 <div id'cycling-container'>
     <div>
         <h2>Title</h2>
@@ -57,6 +60,7 @@ you want the bar to appear. For example:
         <p>Interesting stuff.</p>
     </div>
 </div>
+---end HTML code--------------------------------------------------------------------
 
 ================================================================================
 
@@ -68,6 +72,7 @@ in a callback to the ready event of the document. Just call the contentCycle met
 on the container div. Of course make sure you include the Content Cycle script
 between the jQuery script and the script that calls the contentCycle method::
 
+---JavaScript code--------------------------------------------------------------
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/jquery.contentcycle.js"></script>
 
@@ -76,6 +81,7 @@ between the jQuery script and the script that calls the contentCycle method::
         $('#cycling-container').contentCycle();
     });
 </script>
+---end JavaScript code--------------------------------------------------------------
 
 ================================================================================
 
@@ -84,11 +90,13 @@ Options
 ================================================================================
 The plugin's default options are as follows (All units are milliseconds):
 
+---JavaScript code--------------------------------------------------------------
 {
     outSpeed : 1500, // The speed that the old 'slide' fades out
     inSpeed : 1500, // The speed that the new 'slide' fades in
     duration : 5000 // Amount of time a slide is displayed
 }
+---end JavaScript code--------------------------------------------------------------
 
 ================================================================================
 
@@ -100,19 +108,25 @@ The available methods are:
 init: initializes and starts the cycling of content. Called by default with an
 options object like this:
 
+---JavaScript code--------------------------------------------------------------
 $('#cycling-container').contentCycle({
     outSpeed: 1000,
     inSpeed: 2000,
     duration: 10000
 });
+---end JavaScript code--------------------------------------------------------------
 
 Or with no arguments to use the default options:
 
+---JavaScript code--------------------------------------------------------------
 $('#cycling-container').contentCycle();
+---end JavaScript code--------------------------------------------------------------
 
 Other methods are called in the standard jQuery plugin fashion:
 
+---JavaScript code--------------------------------------------------------------
 $('#cycling-container').contentCycle('method', 'arguments');
+---end JavaScript code--------------------------------------------------------------
 
 start: starts the cycling of content
 
