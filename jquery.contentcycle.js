@@ -1,9 +1,13 @@
 /*
- * Name: Content Slide Show jQuery Plugin
+ * Name: Content Cycle jQuery Plugin
  * Author: Christopher Grabowski
  *
  * Description: Cycles sections of html content like a
  * slide show.
+ *
+ * If you find any errors or have suggested changes,
+ * please post a comment on the github project:
+ * http://github.com/christophergrabowski/Content-Cycle-jQuery-Plugin
  */
 
 /*global console, jQuery*/
