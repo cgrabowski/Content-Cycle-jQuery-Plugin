@@ -105,7 +105,7 @@ Methods
 ================================================================================
 The available methods are:
 
-init: initializes and starts the cycling of content. Called by default with an
+**init**: initializes and starts the cycling of content. Called by default with an
 options object like this:
 
 ```
@@ -128,17 +128,17 @@ Other methods are called in the standard jQuery plugin fashion:
 $('#cycling-container').contentCycle('method', 'arguments');
 ```
 
-start: starts the cycling of content
+**start**: starts the cycling of content
 
-stop: stops the cycling of content
+**stop**: stops the cycling of content
 
-back: flips back one 'slide'
+**back**: flips back one 'slide'
 
-forward: flips forward one 'slide'
+**forward**: flips forward one 'slide'
 
-change: changes to the 'slide' designated by an index argument (index starts at zero)
+**change**: changes to the 'slide' designated by an index argument (index starts at zero)
 
-containHighestContentPage: makes the overall container div high enough to
+**containHighestContentPage**: makes the overall container div high enough to
 contain the highest 'slide'. This is used internally. You shouldn't need to call
 this manually, but it is available nonetheless.
 
