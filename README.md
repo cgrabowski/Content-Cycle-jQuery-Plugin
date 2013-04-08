@@ -1,4 +1,4 @@
-Content Cycle jQuery Plugin
+# Content Cycle jQuery Plugin #
 ================================================================================
 
 ## Overview ##
