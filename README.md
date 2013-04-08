@@ -1,7 +1,7 @@
 Content Cycle jQuery Plugin
 ================================================================================
 
-Overview:
+## Overview ##
 ================================================================================
 
 Content Cycle is a jQuery Plugin that allows content to be cycled with a fade-out fade-in transition like a slide show. An example can be found at http://www.coroprosvs.com.
@@ -12,7 +12,7 @@ github project: http://github.com/christophergrabowski/Content-Cycle-jQuery-Plug
 ================================================================================
 
 
-Adding cycling content to your html:
+## Adding cycling content to your html ##
 ================================================================================
 
 Formatting your html as cycling content is very easy. It looks like this:
@@ -66,7 +66,7 @@ you want the bar to appear. For example:
 ================================================================================
 
 
-Adding the JavaScript:
+## Adding the JavaScript ##
 ================================================================================
 Adding the JavaScript is also easy. It is only one line of code that needs to be
 in a callback to the ready event of the document. Just call the contentCycle method
@@ -87,7 +87,7 @@ between the jQuery script and the script that calls the contentCycle method:
 ================================================================================
 
 
-Options
+## Options ##
 ================================================================================
 The plugin's default options are as follows (All units are milliseconds):
 
@@ -102,7 +102,7 @@ The plugin's default options are as follows (All units are milliseconds):
 ================================================================================
 
 
-Methods
+## Methods ##
 ================================================================================
 The available methods are:
 
@@ -146,7 +146,7 @@ this manually, but it is available nonetheless.
 ================================================================================
 
 
-Styling
+## Styling ##
 ================================================================================
 
 Keep in mind that if the content in one 'slide' is considerably longer than others,
