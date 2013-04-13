@@ -107,7 +107,6 @@
             var data = $this.data('contentcycle'),
                 children = $this.children('div');
             $(children).fadeOut(data.settings.outSpeed);
-            console.log(index);
             $($this.children('div')[index]).fadeIn(data.settings.inSpeed, function (event) {
                 $(children[index]).trigger('contentpagechange', [$(children[index])]);
             });
